@@ -123,7 +123,7 @@ function slide() {
         sliderContainer.style.transform = `translateX(0)`;
     }
     sliderContainer.style.transition = 'transform 0.5s ease';
-    sliderContainer.style.transform = `translateX(-${counter * 580}px)`;
+    sliderContainer.style.transform = `translateX(-${counter * 575}px)`;
 }
 
 setInterval(slide, 5000);
