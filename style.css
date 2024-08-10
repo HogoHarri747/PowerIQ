@@ -387,7 +387,7 @@ body.nav-active { overflow: hidden; }
     display: flex; /* Use flex to display as column */
 }
 
-.contact-link { transition: var(--transition-1);}
+.contact-link { transition: var(--transition-1); color: black;}
 
 .contact-link:is(:hover, :focus-visible) {color: var(--violet-blue-crayola);}
 
@@ -579,6 +579,7 @@ body.nav-active { overflow: hidden; }
   padding-inline-start: 24px;
   max-height: 0;
   overflow: hidden;
+  color: black;
 }
 
 .accordion-card.expanded .accordion-content {
