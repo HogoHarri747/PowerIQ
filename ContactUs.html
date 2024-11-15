@@ -194,11 +194,87 @@
                         <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
                         <input type="address" name="address" placeholder="Your Address" class="contact-inputs" required>
                         <input type="zipcode" name="zipcode" placeholder="Your zipcode" class="contact-inputs" required>
-                    
-                        
-                        <textarea name="message" placeholder="Your Message" class="contact-inputs"required></textarea>
-                        
 
+                        <input name="Type Of Property" list="browsers" class="contact-inputs" placeholder="Type of Property">
+                          <datalist id="browsers">
+                            <option value="Single-family house">
+                            <option value="Apartment">
+                            <option value="Townhouse">
+                            <option value="Duplex">
+                            <option value="Condominium">
+                            <option value="Other (please specify)">
+                          </datalist>
+                        <input name="Home Ownership Status" list="OS" class="contact-inputs" placeholder="Home Ownership Status">
+                          <datalist id="OS">
+                            <option value="Owne">
+                            <option value="Rent">
+                          </datalist>
+                        <input name="Year Built" list="YB" class="contact-inputs" placeholder="Year Built">
+                          <datalist id="YB">
+                            <option value="Before 1970">
+                            <option value="1970 - 1989">
+                            <option value="1990 - 2009">
+                            <option value="2010 or later">
+                          </datalist>
+                        <input name="Square Footage" list="SF" class="contact-inputs" placeholder="Square Footage">
+                          <datalist id="SF">
+                            <option value="Under 1,000 sq ft">
+                            <option value="1,000–1,500 sq ft">
+                            <option value="1,500–2,500 sq ft">
+                            <option value="2,500–3,500 sq ft">
+                            <option value="Over 3,500 sq ft">
+                          </datalist>
+      
+                        <input type="number" name="Square Footage" class="contact-inputs" placeholder="Number Of Floors">
+                        <input type="number" name="Square Footage" class="contact-inputs" placeholder="Square Footage">
+                        <input type="number" name="Number of Occupants" class="contact-inputs" placeholder="Number of Occupants">
+
+
+                        <input name="Primary Heating System" list="PHS" class="contact-inputs" placeholder="Primary Heating System">
+                          <datalist id="PHS">
+                            <option value="electric baseboard">
+                            <option value="gas furance">
+                            <option value="heat pump">
+                            <option value="Other(Explain)">
+                          </datalist>
+
+                        <input name="Cooling System Type" list="CST" class="contact-inputs" placeholder="Cooling System Type">
+                          <datalist id="CST">
+                            <option value="Central air conditioning">
+                            <option value="window units">
+                            <option value="fans">
+                            <option value="Other(Explain)">
+                            <option value="None">
+                          </datalist>
+
+                        <input name="Water Heater Type" list="WHT" class="contact-inputs" placeholder="Water Heater Type">
+                          <datalist id="WHT">
+                            <option value="Gas">
+                            <option value="tankless">
+                            <option value="Solar">
+                            <option value="Other(Explain)">
+                          </datalist>
+
+                        <input name="Location of Water Heater" list="LWH" class="contact-inputs" placeholder="Location of Water Heater">
+                          <datalist id="LWH">
+                            <option value="Garage">
+                            <option value="basement">
+                            <option value="Other(Explain)">
+                          </datalist>
+
+                        <input name="Lighting Types" list="LT" class="contact-inputs" placeholder="Lighting Types">
+                          <datalist id="LT">
+                            <option value="Mostly LED">
+                            <option value="Mostly CFL">
+                            <option value="Mostly incandescent">
+                          </datalist>
+
+                        <input type="number" name="Budget for Energy Improvements" class="contact-inputs" placeholder="Budget for Energy Improvements (in CAD)">
+                        <textarea name="Major Appliances" placeholder="Explain about Major Appliances and their energy-efficiency rating " class="contact-inputs"required></textarea>
+                        <textarea name="Renewable Energy Systems" placeholder="Explain about Renewable energy System you have(if applicable) " class="contact-inputs"required></textarea>
+                        <textarea name="description" placeholder="Any other detail you want to add" class="contact-inputs"required></textarea>
+                        
+                        
 
 
                         <button type="submit">Submit <img src="images/arrow_icon.png" alt=""></button>
