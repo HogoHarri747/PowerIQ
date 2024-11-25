@@ -216,6 +216,23 @@
                             <option value="1990 - 2009">
                             <option value="2010 or later">
                           </datalist>
+                          </datalist>
+                        <input name="Building Material" list="BM" class="contact-inputs" placeholder="Building Material">
+                          <datalist id="BM">
+                            <option value="Wood">
+                            <option value="Brick">
+                            <option value="Concrete">
+                            <option value="Mixed materials">
+                            <option value="Other (please specify)">
+                          </datalist>
+                        <input name="Renovation History" list="RH" class="contact-inputs" placeholder="Renovation History">
+                          <datalist id="RH">
+                            <option value="No major renovations">
+                            <option value="Insulation upgrades">
+                            <option value="Window/door upgrades">
+                            <option value="HVAC system updates">
+                            <option value="Other (please specify)">
+                          </datalist>
                         <input name="Square Footage" list="SF" class="contact-inputs" placeholder="Square Footage">
                           <datalist id="SF">
                             <option value="Under 1,000 sq ft">
@@ -226,9 +243,25 @@
                           </datalist>
       
                         <input type="number" name="Square Footage" class="contact-inputs" placeholder="Number Of Floors">
-                        <input type="number" name="Square Footage" class="contact-inputs" placeholder="Square Footage">
+                        <!-- <input type="number" name="Square Footage" class="contact-inputs" placeholder="Square Footage"> -->
                         <input type="number" name="Number of Occupants" class="contact-inputs" placeholder="Number of Occupants">
 
+
+                        <input name="Insulation Type" list="IT" class="contact-inputs" placeholder="Insulation Type">
+                          <datalist id="IT">
+                            <option value="Fiberglass">
+                            <option value="Spray foam">
+                            <option value="Blown-in cellulose">
+                            <option value="Unknown">
+                          </datalist>
+
+                        <input name="Window Type" list="WT" class="contact-inputs" placeholder="Window Type">
+                          <datalist id="WT">
+                            <option value="Single-pane">
+                            <option value="Double-pane">
+                            <option value="Triple-pane">
+                            <option value="Storm windows">
+                          </datalist>
 
                         <input name="Primary Heating System" list="PHS" class="contact-inputs" placeholder="Primary Heating System">
                           <datalist id="PHS">
@@ -269,9 +302,22 @@
                             <option value="Mostly incandescent">
                           </datalist>
 
-                        <input type="number" name="Budget for Energy Improvements" class="contact-inputs" placeholder="Budget for Energy Improvements (in CAD)">
-                        <textarea name="Major Appliances" placeholder="Explain about Major Appliances and their energy-efficiency rating " class="contact-inputs"required></textarea>
-                        <textarea name="Renewable Energy Systems" placeholder="Explain about Renewable energy System you have(if applicable) " class="contact-inputs"required></textarea>
+                          <textarea name="Major Appliances" placeholder="Explain about Major Appliances and their energy-efficiency rating " class="contact-inputs"></textarea>
+                          <textarea name="Renewable Energy Systems" placeholder="Explain about Renewable energy System you have(if applicable) " class="contact-inputs"></textarea>
+                          <input name="Solar Panels" list="SP" class="contact-inputs" placeholder="Solar Panels">
+                            <datalist id="SP">
+                              <option value="Installed and operational">
+                              <option value="Considering installation">
+                              <option value="Not interested">
+                            </datalist>
+                          <input type="number" name="Budget for Energy Improvements" class="contact-inputs" placeholder="Budget for Energy Improvements (in CAD)">
+
+                          <input name="Interest in Rebates and Incentives" list="IRI" class="contact-inputs" placeholder="Interest in Rebates and Incentives">
+                            <datalist id="IRI">
+                                <option value="Yes, highly interested">
+                                <option value="Somewhat interested">
+                                <option value="Not interested">
+                            </datalist>
                         <textarea name="description" placeholder="Any other detail you want to add" class="contact-inputs"required></textarea>
                         
                         
